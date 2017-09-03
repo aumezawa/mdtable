@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Align table",
+        "command": "mdtable:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "MdTable",
+          "submenu": [
+            {
+              "label": "Align table",
+              "command": "mdtable:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
